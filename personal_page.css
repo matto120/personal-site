@@ -1,3 +1,10 @@
+header {
+    background-image: url('space.webp');
+    background-size: cover;
+    margin: 0px;
+    padding: 100px;
+}
+
 header h1{
     text-align: center;
     margin: 20px;
@@ -48,7 +55,7 @@ ul.nav-links {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #023330;
+  background-color: #2a2a2a;
   position: sticky;
   top: 0;
   width: 100%;
@@ -58,6 +65,7 @@ ul.nav-links {
 
 ul.nav-links li {
   float: left;
+  align-items: center;
 }
 
 ul.nav-links li a {
@@ -69,10 +77,9 @@ ul.nav-links li a {
 }
 
 ul.nav-links li a:hover {
-  background-color: #011353;
+  background-color: #49547a;
 }
 
 ul.nav-links li a.active {
-  background-color: #014812;
-}
+  background-color: #1e2a4f;
 }
